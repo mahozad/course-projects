@@ -1,0 +1,6 @@
+
+Osquid:S3725":Replace this with a call to the "toFile().exists()" method(¹¼È·
+csquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(³ë‹¦
+dsquid:HiddenFieldCheck"?Rename "fileAddress" which hides the field declared at line 22.(£¡±…úÿÿÿÿ
+Bsquid:S2387"-"font" is the name of a field in "Component".(ºÛ÷
+1squid:S1220""Move this file to a named package.

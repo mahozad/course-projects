@@ -1,0 +1,12 @@
+
+Ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Ãåêã
+_squid:UselessImportCheck"8Remove this unused import 'java.net.URISyntaxException'.(Ä®íÿÿÿÿÿ
+<squid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+ %squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(£’®„
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ù¾´åøÿÿÿÿ
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+1squid:S1220""Move this file to a named package.
+Dsquid:S00108")Either remove or fill this block of code.(Æ¸Û‚øÿÿÿÿ

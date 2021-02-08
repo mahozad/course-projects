@@ -1,0 +1,16 @@
+﻿ 
+
+main(){ int pit=10;
+
+	boolean 5ali=true;
+
+	if(5ali){
+	a+5&b
+	    i=2*4-8;
+
+	}else{
+
+	    i=3/4+95;
+
+	}
+}
