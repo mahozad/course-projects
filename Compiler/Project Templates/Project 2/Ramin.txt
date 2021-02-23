@@ -1,0 +1,40 @@
+
+
+
+private boolean E() {
+    int start = next;
+    if (E1())
+      return true;
+
+    next = start;
+    if (E2())
+      return true;
+
+    next = start;
+    if (E3())
+      return true;
+
+    next = start;
+    if (E4())
+      return true;
+
+    next = start;
+    if (E5())
+      return true;
+
+    // bara in ke age chize eshtebahi neveshte shode bood tooye } irad
+    // begire
+    next = start;
+    return true;
+  }
+
+
+
+
+
+
+E==> FE | E1
+
+E1 ==> if( BE ){ E }E1H
+
+BE ها boolean experation ها هستن
