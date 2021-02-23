@@ -1,0 +1,5 @@
+<Projects version="2.0">
+	<Project active="1">test.cfp</Project>
+	<File active="1">main.c</File>
+	<File active="0">..\sorts\main.c</File>
+</Projects>

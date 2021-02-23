@@ -1,0 +1,35 @@
+void quickSort(long array[], long begin, long end) {
+    if (begin < end) {
+        long piv = array[begin];
+        long i = begin + 1;
+        long j = end;
+        long temp;
+        while (i < j) {
+            if (array[i] <= piv) {
+                i++;
+            }
+            else if (array[j] >= piv) {
+                j--;
+            }
+            else {
+                temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        }
+        if (array[i] < piv) {
+            temp = array[i];
+            array[i] = array[begin];
+            array[begin] = temp;
+            i--;
+        }
+        else {
+            i--;
+            temp = array[i];
+            array[i] = array[begin];
+            array[begin] = temp;
+        }
+        quickSort(array, begin, i);
+        quickSort(array, j, end);
+    }
+}
