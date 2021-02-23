@@ -1,0 +1,2 @@
+the two statements at line 48 & 49 of class MainFrame (and some others) do not need to be synchronized because they are called only once before the program is visible to the user
+-------------------------------------
